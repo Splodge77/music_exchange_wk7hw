@@ -25,4 +25,12 @@ public class SynthInst extends Instrument {
     public String play(){
         return "Playing " + this.getType();
     }
+
+    public int getKeys() {
+        return this.keys;
+    }
+
+    public int getRam() {
+        return this.ram;
+    }
 }
