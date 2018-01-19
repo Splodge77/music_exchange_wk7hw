@@ -23,4 +23,12 @@ public class StringInst extends Instrument {
     public String play(){
         return "Playing " + this.getType();
     }
+
+    public String getColour(){
+        return this.colour;
+    }
+
+    public int getStrings() {
+        return this.strings;
+    }
 }

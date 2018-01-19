@@ -11,22 +11,18 @@ import static org.junit.Assert.assertEquals;
  * Created by user on 19/01/2018.
  */
 
-public class InstrumentTest {
+public class StringInstTest {
 
     StringInst stringInst;
 
     @Before
     public void before() {
-        stringInst = new StringInst("Blue", "Ukulele", 4);
+        stringInst = new StringInst("Green", "Guitar", 12);
     }
 
     @Test
-    public void canPlay(){
-        assertEquals("Playing Ukulele", stringInst.play());
+    public void hasStrings(){
+        assertEquals(12, stringInst.getStrings());
     }
 
-    @Test
-    public void canGetColour(){
-        assertEquals("Blue", stringInst.getColour());
-    }
 }
