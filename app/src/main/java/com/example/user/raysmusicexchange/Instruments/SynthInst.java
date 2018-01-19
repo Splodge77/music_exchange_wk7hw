@@ -11,9 +11,8 @@ public class SynthInst extends Instrument {
     public int keys;
     public int ram;
 
-    public SynthInst(String colour, String type, int keys, int ram){
-        super(colour, type);
-        this.type = type;
+    public SynthInst(String colour, String type, int keys, int ram, int retail, int wholesale){
+        super(colour, type, retail, wholesale);
         this.keys = keys;
         this.ram = ram;
     }
@@ -32,5 +31,10 @@ public class SynthInst extends Instrument {
 
     public int getRam() {
         return this.ram;
+    }
+
+    @Override
+    public void markup(int markup) {
+
     }
 }

@@ -17,7 +17,7 @@ public class StringInstTest {
 
     @Before
     public void before() {
-        stringInst = new StringInst("Green", "Guitar", 12);
+        stringInst = new StringInst("Green", "Guitar", 12, 120, 60);
     }
 
     @Test

@@ -17,7 +17,7 @@ public class WindInstTest {
 
     @Before
     public void before(){
-        windInst = new WindInst("Brass", "Trumpet", 3);
+        windInst = new WindInst("Brass", "Trumpet", 3, 150, 70);
     }
 
     @Test

@@ -17,11 +17,11 @@ public class PercussionInstTest {
 
     @Before
     public void before(){
-        percussionInst = new PercussionInst("Drums", "Cobalt", "Kit");
+        percussionInst = new PercussionInst("Drums", "Cobalt", "DrumKit", 450, 200);
     }
 
     @Test
     public void hasSubType(){
-        assertEquals("Kit", percussionInst.getSubType());
+        assertEquals("DrumKit", percussionInst.getSubType());
     }
 }

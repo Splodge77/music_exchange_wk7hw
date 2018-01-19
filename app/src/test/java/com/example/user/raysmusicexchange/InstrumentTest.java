@@ -17,7 +17,7 @@ public class InstrumentTest {
 
     @Before
     public void before() {
-        stringInst = new StringInst("Blue", "Ukulele", 4);
+        stringInst = new StringInst("Blue", "Ukulele", 4, 70, 30);
     }
 
     @Test
@@ -28,5 +28,16 @@ public class InstrumentTest {
     @Test
     public void canGetColour(){
         assertEquals("Blue", stringInst.getColour());
+    }
+
+    @Test
+    public void hasRetailWholesalePrice(){
+        assertEquals(70, stringInst.getRetail());
+        assertEquals(30, stringInst.getWholesale());
+    }
+
+    @Test
+    public void hasMarkup(){
+        assertEquals(40, stringInst.markup());
     }
 }

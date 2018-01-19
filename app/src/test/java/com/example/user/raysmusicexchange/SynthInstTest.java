@@ -17,7 +17,7 @@ public class SynthInstTest {
 
     @Before
     public void before(){
-        synthInst = new SynthInst("Grey", "Moog Synth", 88, 128);
+        synthInst = new SynthInst("Grey", "Moog Synth", 88, 128, 300, 120);
     }
 
     @Test

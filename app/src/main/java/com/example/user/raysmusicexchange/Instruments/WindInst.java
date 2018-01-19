@@ -11,8 +11,8 @@ public class WindInst extends Instrument {
 
     public int valves;
 
-    public WindInst(String colour, String type, int valves){
-        super(colour, type);
+    public WindInst(String colour, String type, int valves, int retail, int wholesale){
+        super(colour, type, retail, wholesale);
         this.valves = valves;
     }
 
@@ -26,5 +26,10 @@ public class WindInst extends Instrument {
 
     public int getValves() {
         return this.valves;
+    }
+
+    @Override
+    public void markup(int markup) {
+
     }
 }

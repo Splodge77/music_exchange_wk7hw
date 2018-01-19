@@ -1,5 +1,6 @@
 package com.example.user.raysmusicexchange.Instruments;
 
+import com.example.user.raysmusicexchange.ISellable;
 import com.example.user.raysmusicexchange.Instrument;
 
 /**
@@ -10,17 +11,24 @@ public class PercussionInst extends Instrument{
 
     public String subType;
 
-    public PercussionInst(String type, String colour, String subType){
-        super(colour, type);
+    public PercussionInst(String type, String colour, String subType, int retail, int wholesale){
+        super(colour, type, retail, wholesale);
         this.subType = subType;
     }
 
     public String play(){
-        return "Playing "+ this.type;
+        return "Playing "+ this.subType;
     }
 
 
     public String getSubType() {
         return this.subType;
     }
+
+    @Override
+    public void markup(int markup) {
+
+    }
+
+
 }

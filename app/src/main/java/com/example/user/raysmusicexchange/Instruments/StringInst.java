@@ -6,13 +6,13 @@ import com.example.user.raysmusicexchange.Instrument;
  * Created by user on 19/01/2018.
  */
 
-public class StringInst extends Instrument {
+public class StringInst extends Instrument  {
 
     public int strings;
 
-    public StringInst(String colour, String type, int strings){
-        super(colour, type);
-        this.type = type;
+
+    public StringInst(String colour, String type, int strings, int retail, int wholesale){
+        super(colour, type, retail, wholesale);
         this.strings = strings;
     }
 
@@ -30,5 +30,10 @@ public class StringInst extends Instrument {
 
     public int getStrings() {
         return this.strings;
+    }
+
+    @Override
+    public void markup(int markup) {
+
     }
 }
