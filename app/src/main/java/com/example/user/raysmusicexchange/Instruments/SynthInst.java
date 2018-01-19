@@ -6,14 +6,16 @@ import com.example.user.raysmusicexchange.Instrument;
  * Created by user on 19/01/2018.
  */
 
-public class StringInst extends Instrument {
+public class SynthInst extends Instrument {
 
-    public int strings;
+    public int keys;
+    public int ram;
 
-    public StringInst(String colour, String type, int strings){
+    public SynthInst(String colour, String type, int keys, int ram){
         super(colour, type);
         this.type = type;
-        this.strings = strings;
+        this.keys = keys;
+        this.ram = ram;
     }
 
     public String getType(){

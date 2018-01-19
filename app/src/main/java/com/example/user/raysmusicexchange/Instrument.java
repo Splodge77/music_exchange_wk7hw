@@ -7,13 +7,11 @@ package com.example.user.raysmusicexchange;
 public abstract class Instrument {
 
     private String colour;
+    public String type;
 
-    public Instrument(String colour){
+    public Instrument(String colour, String type){
         this.colour = colour;
-    }
-
-    public String getColour() {
-        return this.colour;
+        this.type = type;
     }
 
     public abstract String play();

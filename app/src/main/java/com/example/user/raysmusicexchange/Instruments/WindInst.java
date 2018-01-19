@@ -9,12 +9,10 @@ import com.example.user.raysmusicexchange.Instrument;
 
 public class WindInst extends Instrument {
 
-    public String type;
     public int valves;
 
     public WindInst(String colour, String type, int valves){
-        super(colour);
-        this.type = type;
+        super(colour, type);
         this.valves = valves;
     }
 
