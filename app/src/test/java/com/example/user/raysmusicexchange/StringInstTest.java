@@ -24,5 +24,4 @@ public class StringInstTest {
     public void hasStrings(){
         assertEquals(12, stringInst.getStrings());
     }
-
 }

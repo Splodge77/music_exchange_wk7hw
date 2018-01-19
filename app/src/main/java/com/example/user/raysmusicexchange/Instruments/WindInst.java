@@ -23,4 +23,8 @@ public class WindInst extends Instrument {
     public String play(){
         return "Playing " + this.getType();
     }
+
+    public int getValves() {
+        return this.valves;
+    }
 }
