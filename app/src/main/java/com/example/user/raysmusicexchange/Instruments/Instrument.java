@@ -1,4 +1,6 @@
-package com.example.user.raysmusicexchange;
+package com.example.user.raysmusicexchange.Instruments;
+
+import com.example.user.raysmusicexchange.ISellable;
 
 /**
  * Created by user on 19/01/2018.

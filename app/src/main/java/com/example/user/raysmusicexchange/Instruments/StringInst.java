@@ -1,7 +1,5 @@
 package com.example.user.raysmusicexchange.Instruments;
 
-import com.example.user.raysmusicexchange.Instrument;
-
 /**
  * Created by user on 19/01/2018.
  */

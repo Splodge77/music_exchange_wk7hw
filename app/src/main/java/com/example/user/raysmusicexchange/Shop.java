@@ -2,17 +2,21 @@ package com.example.user.raysmusicexchange;
 
 import java.util.ArrayList;
 
+//import com.example.user.raysmusicexchange.Stock.*;
+
 /**
  * Created by user on 21/01/2018.
  */
 
 public class Shop {
 
-    ArrayList<Stock> stock;
+    Stock stock;
+
+    ArrayList<Stock> item;
 
     public Shop(){
-        stock = new ArrayList<>();
+        item = new ArrayList<>();
     }
 
-    public void addStock(Stock newStock){this.stock.add(newStock);}
+    public void addItem(Stock newItem){this.item.add(newItem);}
 }
