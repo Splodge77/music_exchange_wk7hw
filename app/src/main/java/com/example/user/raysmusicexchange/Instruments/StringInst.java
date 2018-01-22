@@ -30,8 +30,5 @@ public class StringInst extends Instrument  {
         return this.strings;
     }
 
-    @Override
-    public void markup(int markup) {
 
-    }
 }

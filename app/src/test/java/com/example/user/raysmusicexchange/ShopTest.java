@@ -29,4 +29,17 @@ public class ShopTest {
         assertEquals(1, shop.stockCount());
     }
 
+    @Test
+    public void stockStartsEmpty(){
+        assertEquals(0, shop.stockCount());
+    }
+
+    @Test
+    public void stockRemoved(){
+        shop.addStockItem(item);
+        assertEquals(1, shop.stockCount());
+        shop.removeStockItem(item);
+        assertEquals(0,shop.stockCount());
+    }
+
 }

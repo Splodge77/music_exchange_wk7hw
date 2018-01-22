@@ -22,10 +22,4 @@ public class PercussionInst extends Instrument{
         return this.subType;
     }
 
-    @Override
-    public void markup(int markup) {
-
-    }
-
-
 }

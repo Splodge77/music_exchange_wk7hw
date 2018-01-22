@@ -26,6 +26,4 @@ public class WindInst extends Instrument {
         return this.valves;
     }
 
-    @Override
-    public void markup(int markup) { }
 }

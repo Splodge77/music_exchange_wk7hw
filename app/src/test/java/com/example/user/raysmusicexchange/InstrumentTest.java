@@ -37,7 +37,7 @@ public class InstrumentTest {
     }
 
     @Test
-    public void hasMarkup(){
+    public void canGetMarkup(){
         assertEquals(40, stringInst.markup());
     }
 }

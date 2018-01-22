@@ -31,8 +31,4 @@ public class SynthInst extends Instrument {
         return this.ram;
     }
 
-    @Override
-    public void markup(int markup) {
-
-    }
 }

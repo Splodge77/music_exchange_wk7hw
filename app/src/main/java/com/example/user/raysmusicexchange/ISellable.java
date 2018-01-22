@@ -5,6 +5,6 @@ package com.example.user.raysmusicexchange;
  */
 
 public interface ISellable {
-    void markup(int markup);
+    int markup();
 
 }
