@@ -27,7 +27,5 @@ public class WindInst extends Instrument {
     }
 
     @Override
-    public void markup(int markup) {
-
-    }
+    public void markup(int markup) { }
 }

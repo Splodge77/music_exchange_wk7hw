@@ -2,21 +2,24 @@ package com.example.user.raysmusicexchange;
 
 import java.util.ArrayList;
 
-//import com.example.user.raysmusicexchange.Stock.*;
+import com.example.user.raysmusicexchange.ISellable;
 
 /**
  * Created by user on 21/01/2018.
  */
 
 public class Shop {
-
-    Stock stock;
-
-    ArrayList<Stock> item;
+    private ArrayList<ISellable> stock;
 
     public Shop(){
-        item = new ArrayList<>();
+        this.stock = new ArrayList<ISellable>();
     }
 
-    public void addItem(Stock newItem){this.item.add(newItem);}
+    public void addStockItem(ISellable item){this.stock.add(item);}
+
+    public void removeStockItem(ISellable item){this.stock.remove(item);}
+
+    public int stockCount(){return this.stock.size();}
+
+
 }
