@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.example.user.raysmusicexchange.Instruments.StringInst;
-import com.example.user.raysmusicexchange.Shop;
+import com.example.user.raysmusicexchange.behaviours.ISellable;
 
 import static org.junit.Assert.assertEquals;
 

@@ -2,7 +2,7 @@ package com.example.user.raysmusicexchange;
 
 import java.util.ArrayList;
 
-import com.example.user.raysmusicexchange.ISellable;
+import com.example.user.raysmusicexchange.behaviours.ISellable;
 
 /**
  * Created by user on 21/01/2018.

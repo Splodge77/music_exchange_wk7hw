@@ -1,12 +1,13 @@
 package com.example.user.raysmusicexchange.Instruments;
 
-import com.example.user.raysmusicexchange.ISellable;
+import com.example.user.raysmusicexchange.behaviours.IPlayable;
+import com.example.user.raysmusicexchange.behaviours.ISellable;
 
 /**
  * Created by user on 19/01/2018.
  */
 
-public abstract class Instrument implements ISellable {
+public abstract class Instrument implements ISellable, IPlayable {
 
     public int retail;
     public int wholesale;
